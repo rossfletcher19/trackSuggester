@@ -8,9 +8,6 @@ $(document).ready(function() {
     var beMostPopular = $("input:radio[name=5]:checked").val();
     var beBlogsCorpGov = $("input:radio[name=6]:checked").val();
 
-    $(".rubyRails").hide();
-    $(".javaAndroid").hide();
-    $(".phpDrupal").hide();
 
     if (interactivWeb === "yes") {
       $(".keepCalm").hide();
