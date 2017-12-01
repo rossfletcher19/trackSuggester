@@ -11,33 +11,33 @@ $(document).ready(function() {
 
     if (interactivWeb === "yes") {
       $(".keepCalm").hide();
-      $(".rubyRails").show();
+      $(".rubyRails").fadeIn();
     } else if (interactivWeb === "no" && simplistic === "yes") {
       $(".keepCalm").hide();
-      $(".rubyRails").show();
+      $(".rubyRails").fadeIn();
     } else if (simplistic === "no" && beAndWebApps === "yes") {
       $(".keepCalm").hide();
-      $(".javaAndroid").show();
+      $(".javaAndroid").fadeIn();
       $(".rubyRails").hide();
       $(".phpDrupal").hide();
     } else if (beAndWebApps === "no" && androidApps === "yes") {
       $(".keepCalm").hide();
-      $(".javaAndroid").show();
+      $(".javaAndroid").fadeIn();
       $(".rubyRails").hide();
       $(".phpDrupal").hide();
     } else if (androidApps === "no" && beMostPopular === "yes") {
       $(".keepCalm").hide();
-      $(".phpDrupal").show();
+      $(".phpDrupal").fadeIn();
       $(".javaAndroid").hide();
       $(".rubyRails").hide();
     } else if (beMostPopular === "no" && beBlogsCorpGov === "yes") {
       $(".keepCalm").hide();
-      $(".phpDrupal").show();
+      $(".phpDrupal").fadeIn();
       $(".javaAndroid").hide();
       $(".rubyRails").hide();
     } else if (beBlogsCorpGov === "no" && interactivWeb === "yes") {
       $(".keepCalm").hide();
-      $(".rubyRails").show();
+      $(".rubyRails").fadeIn();
       $(".phpDrupal").hide();
       $(".javaAndroid").hide();
     } else {
