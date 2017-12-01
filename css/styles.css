@@ -3,6 +3,19 @@ img {
   max-height: 100%;
 }
 
+.well {
+  text-align: center;
+}
+
+.suggImgContainer {
+  text-align: center;
+}
+
+.suggImg {
+  display: inline-block;
+  margin: auto;
+}
+
 .rubyRails {
   display: none;
 }

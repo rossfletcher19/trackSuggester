@@ -33,12 +33,6 @@ $(document).ready(function() {
     } else if (beBlogsCorpGov === "no" && interactivWeb === "yes") {
       $(".keepCalm").hide();
       $(".rubyRails").show();
-    } else if (interactivWeb === "no" && simplistic === "yes" && beAndWebApps === "yes" && androidApps === "yes" ) {
-      $(".keepCalm").hide();
-      $(".javaAndroid").show();
-    } else if (interactivWeb === "no" && simplistic === "yes" && beAndWebApps === "no" && androidApps === "no" && beMostPopular === "yes" && beBlogsCorpGov === "yes" ) {
-      $(".keepCalm").hide();
-      $(".phpDrupal").show();
     } else {
       alert("Please fill out the questionaire completely.")
     }
