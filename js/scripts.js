@@ -18,18 +18,28 @@ $(document).ready(function() {
     } else if (simplistic === "no" && beAndWebApps === "yes") {
       $(".keepCalm").hide();
       $(".javaAndroid").show();
+      $(".rubyRails").hide();
+      $(".phpDrupal").hide();
     } else if (beAndWebApps === "no" && androidApps === "yes") {
       $(".keepCalm").hide();
       $(".javaAndroid").show();
+      $(".rubyRails").hide();
+      $(".phpDrupal").hide();
     } else if (androidApps === "no" && beMostPopular === "yes") {
       $(".keepCalm").hide();
       $(".phpDrupal").show();
+      $(".javaAndroid").hide();
+      $(".rubyRails").hide();
     } else if (beMostPopular === "no" && beBlogsCorpGov === "yes") {
       $(".keepCalm").hide();
       $(".phpDrupal").show();
+      $(".javaAndroid").hide();
+      $(".rubyRails").hide();
     } else if (beBlogsCorpGov === "no" && interactivWeb === "yes") {
       $(".keepCalm").hide();
       $(".rubyRails").show();
+      $(".phpDrupal").hide();
+      $(".javaAndroid").hide();
     } else {
       alert("Please fill out the questionaire completely.")
     }
