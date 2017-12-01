@@ -15,13 +15,30 @@ $(document).ready(function() {
     if (interactivWeb === "yes") {
       $(".keepCalm").hide();
       $(".rubyRails").show();
-
     } else if (interactivWeb === "no" && simplistic === "yes") {
       $(".keepCalm").hide();
       $(".rubyRails").show();
     } else if (simplistic === "no" && beAndWebApps === "yes") {
       $(".keepCalm").hide();
       $(".javaAndroid").show();
+    } else if (beAndWebApps === "no" && androidApps === "yes") {
+      $(".keepCalm").hide();
+      $(".javaAndroid").show();
+    } else if (androidApps === "no" && beMostPopular === "yes") {
+      $(".keepCalm").hide();
+      $(".phpDrupal").show();
+    } else if (beMostPopular === "no" && beBlogsCorpGov === "yes") {
+      $(".keepCalm").hide();
+      $(".phpDrupal").show();
+    } else if (beBlogsCorpGov === "no" && interactivWeb === "yes") {
+      $(".keepCalm").hide();
+      $(".rubyRails").show();
+    } else if (interactivWeb === "no" && simplistic === "yes" && beAndWebApps === "yes" && androidApps === "yes" ) {
+      $(".keepCalm").hide();
+      $(".javaAndroid").show();
+    } else if (interactivWeb === "no" && simplistic === "yes" && beAndWebApps === "no" && androidApps === "no" && beMostPopular === "yes" && beBlogsCorpGov === "yes" ) {
+      $(".keepCalm").hide();
+      $(".phpDrupal").show();
     }
 
   });
