@@ -39,6 +39,8 @@ $(document).ready(function() {
     } else if (interactivWeb === "no" && simplistic === "yes" && beAndWebApps === "no" && androidApps === "no" && beMostPopular === "yes" && beBlogsCorpGov === "yes" ) {
       $(".keepCalm").hide();
       $(".phpDrupal").show();
+    } else {
+      alert("Please fill out the questionaire completely.")
     }
 
   });
