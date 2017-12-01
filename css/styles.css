@@ -11,10 +11,12 @@ body {
   font-family: trebuchet;
 }
 
-h1 {
+.jumbotron h1 {
   text-align: right;
-  margin-top: 70px;
+  margin-top: 90px;
   padding-left: 50px;
+  font-size: 43px;
+  font-weight: 400;
 }
 
 img {
