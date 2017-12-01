@@ -1,3 +1,22 @@
+body {
+  background-color: lightgrey;
+}
+
+.jumbotron {
+  height: 200px;
+  background-image: url(../img/road.jpg);
+  background-size: 100% 100%;
+  margin-top: 20px;
+  color: white;
+  font-family: trebuchet;
+}
+
+h1 {
+  text-align: right;
+  margin-top: 70px;
+  padding-left: 50px;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
