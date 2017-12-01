@@ -12,8 +12,14 @@ img {
 }
 
 .suggImg {
-  display: inline-block;
+  display: inline;
+}
+
+.suggList {
+  display: inline;
+  padding: 0;
   margin: auto;
+  text-align: center;
 }
 
 .rubyRails {
