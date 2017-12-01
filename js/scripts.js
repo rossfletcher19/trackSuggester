@@ -12,5 +12,17 @@ $(document).ready(function() {
     $(".javaAndroid").hide();
     $(".phpDrupal").hide();
 
+    if (interactivWeb === "yes") {
+      $(".keepCalm").hide();
+      $(".rubyRails").show();
+
+    } else if (interactivWeb === "no" && simplistic === "yes") {
+      $(".keepCalm").hide();
+      $(".rubyRails").show();
+    } else if (simplistic === "no" && beAndWebApps === "yes") {
+      $(".keepCalm").hide();
+      $(".javaAndroid").show();
+    }
+
   });
 });
