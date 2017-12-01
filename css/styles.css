@@ -8,7 +8,8 @@ body {
   background-size: 100% 100%;
   margin-top: 20px;
   color: white;
-  font-family: trebuchet;
+  font-family: helvetica;
+  font-style: italic;
 }
 
 .jumbotron h1 {
